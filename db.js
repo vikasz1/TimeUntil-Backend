@@ -11,9 +11,6 @@ async function connectMongo() {
     console.log("The error is " + err);
   }
 }
- 
-
-
 
 module.exports = {
   connectMongo,
